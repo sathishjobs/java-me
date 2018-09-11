@@ -1,3 +1,5 @@
+package autobox;
+
 import java.util.ArrayList;
 
 public class Bank {
@@ -47,11 +49,11 @@ public class Bank {
     public boolean listCustomers(String branchName,boolean showTransactions){
         Branch branch = findBranch(branchName);
         if(branch != null){
-            System.out.println("Customer details for branch " + branch.getName());
+            System.out.println("autobox.Branch.Customer details for branch " + branch.getName());
             ArrayList<Customer> branchCustomers = branch.getCustomers();
             for(int i=0;i<branchCustomers.size();i++){
                 Customer branchCustomer = branchCustomers.get(i);
-                System.out.println("Customer: "+ branchCustomer.getName() + "["+(i+1)+"]");
+                System.out.println("autobox.Branch.Customer: "+ branchCustomer.getName() + "["+(i+1)+"]");
                 if(showTransactions){
                     System.out.println("Transactions");
                     ArrayList<Double> transactions = branchCustomer.getTransactions();
