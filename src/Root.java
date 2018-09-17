@@ -1,11 +1,12 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+import Generics.*;
 public class Root {
     private static Scanner scanner = new Scanner(System.in);
     private static MobilePhone mobilePhone = new MobilePhone("0039 330 4404");
 
     public static void main(String[] args) {
+        FootballPlayer test = new FootballPlayer("sathish");
         boolean quit = false;
         startPhone();
         printActions();

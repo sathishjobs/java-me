@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-me:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_me_jar</output-path>
+    <root id="archive" name="java-me.jar">
+      <element id="module-output" name="java-me" />
+    </root>
+  </artifact>
+</component>
