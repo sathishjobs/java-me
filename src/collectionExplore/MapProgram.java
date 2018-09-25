@@ -13,11 +13,26 @@ public class MapProgram {
         languages.put("Lisp","THerein lies madness");
 
         System.out.println(languages.put("D","new java"));
-        System.out.println("==============");
         if(languages.containsKey("Java")){
             System.out.println("Java is already in the map");
         } else {
             languages.put("Java","this course is about Java");
+        }
+
+        System.out.println("==============");
+
+        // remove item from hashmap
+        languages.remove("Lisp");
+//        if(languages.remove("Algol", "sathish")){
+//            System.out.println("Algol removed");
+//        }
+
+
+
+//        if(languageses.replace())
+
+        for(String key: languages.keySet()){
+            System.out.println(key + " : " + languages.get(key));
         }
 
     }

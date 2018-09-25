@@ -20,7 +20,7 @@ public class Main {
         password.letMeIn(555555);
 
         System.out.println("==================================");
-        System.out.println("Main method called");
+        System.out.println("Location method called");
         SIBTest test = new SIBTest();
         test.someMethod();
         System.out.println("Owner is "+ SIBTest.owner);
